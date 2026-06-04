@@ -1,0 +1,46 @@
+{
+  "name": "weapp-vite-wevu-template",
+  "type": "module",
+  "version": "1.0.5",
+  "private": true,
+  "description": "weapp-vite + wevu (Vue SFC) 模板",
+  "author": "ice breaker <1324318532@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weapp-vite/weapp-vite.git",
+    "directory": "templates/weapp-vite-wevu-template"
+  },
+  "bugs": {
+    "url": "https://github.com/weapp-vite/weapp-vite/issues"
+  },
+  "keywords": [],
+  "scripts": {
+    "dev": "wv dev",
+    "dev:open": "wv dev -o",
+    "dev:ui": "wv dev --ui",
+    "dev:open:ui": "wv dev --ui -o",
+    "build": "wv build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "vue-tsc --noEmit -p .weapp-vite/tsconfig.app.json",
+    "open": "wv open",
+    "stylelint": "stylelint \"src/**/*.{css,scss,vue,wxss}\" --allow-empty-input",
+    "stylelint:fix": "stylelint \"src/**/*.{css,scss,vue,wxss}\" --fix --allow-empty-input",
+    "postinstall": "wv prepare"
+  },
+  "devDependencies": {
+    "@icebreakers/eslint-config": "^5.0.4",
+    "@icebreakers/stylelint-config": "^4.0.2",
+    "@types/node": "^25.9.1",
+    "@weapp-vite/dashboard": "^6.16.40",
+    "eslint": "^10.4.1",
+    "miniprogram-api-typings": "^5.2.1",
+    "stylelint": "^17.12.0",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.3",
+    "weapp-vite": "^6.16.40",
+    "wevu": "^6.16.40",
+    "weapp-tailwindcss": "^4.12.0"
+  }
+}
