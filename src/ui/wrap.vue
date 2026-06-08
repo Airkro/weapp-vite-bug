@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Cell from '@/ui/cell.vue'
-import Wrap from '@/ui/wrap.vue'
 </script>
 
 <template>
@@ -9,5 +8,4 @@ import Wrap from '@/ui/wrap.vue'
       <text>{{ io }}</text>
     </template>
   </Cell>
-  <Wrap />
 </template>

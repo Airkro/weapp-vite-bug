@@ -1,3 +1,3 @@
 <template>
-  <slot :io="1" />
+  <slot :io="123" />
 </template>

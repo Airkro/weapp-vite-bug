@@ -8,7 +8,7 @@ export default defineConfig({
       globs: [],
     },
     wevu: {
-      preset: 'performance' as const,
+      // preset: 'performance' as const,
     },
   },
 })
