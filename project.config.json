@@ -24,7 +24,17 @@
     "skylineRenderEnable": true,
     "packNpmManually": true,
     "es6": true,
-    "minifyWXML": true
+    "minifyWXML": true,
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "minifyWXSS": true,
+    "localPlugins": false,
+    "condition": false,
+    "swc": false,
+    "disableSWC": true,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false
   },
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},

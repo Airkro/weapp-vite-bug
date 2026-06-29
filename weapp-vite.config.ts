@@ -1,14 +1,9 @@
-import { defineConfig } from 'weapp-vite/config'
+import { defineConfig } from 'weapp-vite'
 
-export default defineConfig({
+export default defineConfig(() => ({
   weapp: {
     srcRoot: 'src',
     autoRoutes: true,
-    autoImportComponents: {
-      globs: [],
-    },
-    wevu: {
-      // preset: 'performance' as const,
-    },
   },
-})
+  // weapp-vite 内置的 Vue 支持会自动处理 .vue 文件，不需要额外插件
+}))
