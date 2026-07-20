@@ -1,3 +1,3 @@
-import { createApp } from 'wevu';
+import { createApp } from 'wevu'
 
-createApp({});
+createApp({})
