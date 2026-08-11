@@ -1,9 +1,21 @@
 import { defineConfig } from 'weapp-vite'
 
-export default defineConfig(() => ({
+export default defineConfig({
   weapp: {
     srcRoot: 'src',
-    autoRoutes: true,
+    autoRoutes: {
+      enabled: true,
+      typedRouter: true,
+      include: [
+        'pages/**',
+        'subs/**',
+      ],
+    },
+    subPackages: {
+      subs: {},
+    },
+    buildScope:{
+      include:['pages']
+    }
   },
-  // weapp-vite 内置的 Vue 支持会自动处理 .vue 文件，不需要额外插件
-}))
+})

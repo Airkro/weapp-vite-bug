@@ -33,16 +33,19 @@
   "devDependencies": {
     "@icebreakers/eslint-config": "^7.0.2",
     "@icebreakers/stylelint-config": "^5.0.3",
-    "@types/node": "^26.1.2",
-    "@weapp-vite/dashboard": "^6.19.1",
-    "eslint": "^10.8.0",
-    "miniprogram-api-typings": "^5.2.2",
+    "@types/node": "^26.2.0",
+    "@weapp-vite/dashboard": "^6.19.4",
+    "eslint": "^10.8.1",
+    "miniprogram-api-typings": "^5.2.3",
     "sass-embedded": "^1.100.0",
     "stylelint": "^17.14.1",
     "typescript": "^6.0.3",
     "vue-tsc": "^3.3.9",
-    "weapp-tailwindcss": "^5.2.11",
-    "weapp-vite": "^6.19.1",
-    "wevu": "^6.19.1"
+    "weapp-tailwindcss": "^5.2.14",
+    "weapp-vite": "^6.19.4",
+    "wevu": "^6.19.4"
+  },
+  "dependencies": {
+    "@vueuse/core": "^14.4.0"
   }
 }
