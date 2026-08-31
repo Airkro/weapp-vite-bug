@@ -1,14 +1,21 @@
-import { defineConfig } from 'weapp-vite/config'
+import { defineConfig } from 'weapp-vite'
 
 export default defineConfig({
   weapp: {
     srcRoot: 'src',
-    autoRoutes: true,
-    autoImportComponents: {
-      globs: [],
+    autoRoutes: {
+      enabled: true,
+      typedRouter: true,
+      include: [
+        'pages/**',
+        'subs/**',
+      ],
     },
-    wevu: {
-      // preset: 'performance' as const,
+    subPackages: {
+      subs: {},
+    },
+    chunks: {
+      dynamicImports: 'native',
     },
   },
 })

@@ -3,6 +3,7 @@
   "type": "module",
   "version": "1.0.5",
   "private": true,
+  "packageManager": "pnpm@10.34.5",
   "description": "weapp-vite + wevu (Vue SFC) 模板",
   "author": "ice breaker <1324318532@qq.com>",
   "license": "MIT",
@@ -29,18 +30,22 @@
     "stylelint:fix": "stylelint \"src/**/*.{css,scss,vue,wxss}\" --fix --allow-empty-input",
     "postinstall": "wv prepare"
   },
+  "dependencies": {
+    "@vueuse/core": "^14.4.0"
+  },
   "devDependencies": {
-    "@icebreakers/eslint-config": "^5.0.4",
-    "@icebreakers/stylelint-config": "^4.0.2",
-    "@types/node": "^25.9.2",
-    "@weapp-vite/dashboard": "^6.16.42",
-    "eslint": "^10.4.1",
-    "miniprogram-api-typings": "^5.2.1",
-    "stylelint": "^17.13.0",
+    "@icebreakers/eslint-config": "^7.1.0",
+    "@icebreakers/stylelint-config": "^5.0.6",
+    "@types/node": "^26.4.0",
+    "@weapp-vite/dashboard": "^6.25.1",
+    "eslint": "^10.9.1",
+    "miniprogram-api-typings": "^5.2.3",
+    "sass-embedded": "^1.103.1",
+    "stylelint": "^17.14.1",
     "typescript": "^6.0.3",
-    "vue-tsc": "^3.3.3",
-    "weapp-tailwindcss": "^4.12.0",
-    "weapp-vite": "^6.16.42",
-    "wevu": "^6.16.42"
+    "vue-tsc": "^3.3.11",
+    "weapp-tailwindcss": "^5.4.2",
+    "weapp-vite": "^6.25.1",
+    "wevu": "^6.25.1"
   }
 }
